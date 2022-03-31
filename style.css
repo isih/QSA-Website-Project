@@ -113,3 +113,104 @@ a {
 
 /* The code start for Second-part */
 
+.Second-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+.title-s{
+    text-align: center;
+    font-size: 36px;
+    font-style: extra-bold;
+    color: 1F2937;
+}
+
+.starter img{
+    height: 200px;
+    width: 200px;
+}
+.starter p{
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.basic img{
+    height: 200px;
+    width: 200px;
+}
+.basic p{
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.tajweed img{
+    height: 200px;
+    width: 200px;
+}
+.tajweed p{
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.hafiz img{
+    height: 200px;
+    width: 200px;
+}
+.hafiz p{
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.Second-part-b{
+    display: flex;
+}
+.islamic-studies img{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+.islamic-studies p{
+    margin-left: 80px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.summer img{
+    height: 200px;
+    width: 200px;
+    margin-left: 170px;
+}
+.summer p{
+    margin-left: 190px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.grammar img{
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+}
+.grammar p{
+    margin-left: 150px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+}
