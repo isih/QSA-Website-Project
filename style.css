@@ -1,0 +1,115 @@
+/* The code start for Header/Navigation-Bar */
+
+body{
+    margin: 0;
+}
+
+.navv{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.item {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+    
+    
+}
+
+.but{
+    border: 2px solid white;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+.heading{
+    display: inline-block;
+    margin-left: 25px;
+    color: #F9FAF8;
+}
+
+/* The code ends for Header/Navigation-Bar */
+
+
+/* The code start for First-part */
+
+.First-part{
+    display: flex;
+    background-color: #1F2937;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.first-h{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-style: extra-bold;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-top: 140px;
+}
+
+.first-p{
+    font-size: 25px;
+    color: #E5E7EB;
+    margin-left: 30px;
+}
+
+#first-b{
+    background-color: #3882F6;
+    font-size: 20px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+    width: 150px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.img-div{
+    display: inline;
+    width: 200px;
+    height: 200px;
+    flex: 1;
+}
+#first-i{
+    width: 500px;
+    height: 500px;
+    display: inline;
+}
+
+.first-child{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.first-direct{
+    flex: 1;
+}
+
+/* The code ends for First-part */
+
+
+
+/* The code start for Second-part */
+
