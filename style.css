@@ -32,6 +32,10 @@ body{
     padding-top: 8px;
 }
 
+.but:hover{
+    background-color: #3882F6;
+}
+
 
 a {
     text-decoration: none;
@@ -83,6 +87,13 @@ a {
     height: 50px;
     margin-left: 25px;
     margin-top: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+#first-b:hover{
+    background-color: brown;
 }
 
 .img-div{
@@ -217,3 +228,111 @@ a {
 
 
 /* The code ends for Second-part */
+
+
+
+/* The code start for Third-part */
+
+.Third-part{
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.Third-part-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-hadith{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+#content-hadith{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#reference-hadith{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    align-self: flex-end;
+    margin-right: 200px;
+}
+
+/* The code ends for Third-part */
+
+
+
+
+
+/* The code start for Fourth-part */
+
+.Fourth-part{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fourth-part-b{
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 900px;
+    padding-top: 40px;
+    padding-bottom: -30px;
+    padding-left: 100px;
+}
+
+.action-text-one{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.action-text-two{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#second-b{
+    background-color: #3882F6;
+    font-size: 20px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+    width: 150px;
+    height: 50px;
+    border-color: white;
+    border-style:solid;
+    float:right;
+    margin-right: 70px;
+    margin-top: -70px;
+}
+
+#second-b:hover{
+    background-color: black;
+}
+
+/* The code ends for Fourth-part */
+
+
+
+
+
+/* The code start for Last-part */
+
+.Last-part{
+    display: flex;
+    background-color: rgb(11, 11, 27);
+    justify-content: center;
+}
+
+#copy-text{
+    color: white;
+}
+
+/* The code ends for Last-part */
